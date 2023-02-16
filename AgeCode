@@ -1,0 +1,7 @@
+from datetime import date
+def find_age():
+ birthYear = int(input('Please insert your year of birth: '))
+ OngoingYear = date.today().year
+ Age = OngoingYear - birthYear
+
+ print("You are" +Age+ "years old")
